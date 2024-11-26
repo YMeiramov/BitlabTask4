@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/Task4/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <span>TWITTER</span>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+    </header>
+    <main>
+        <form id="registerForm">
+            <label>Email:</label>
+            <input type="email" id="email" required>
+            <label>Password:</label>
+            <input type="password" id="password" required>
+            <label>Full Name:</label>
+            <input type="text" id="fullName" required>
+            <label>Country:</label>
+            <select id="country">
+                <option>Kazakhstan</option>
+                <option>USA</option>
+                <option>Germany</option>
+            </select>
+            <label>Birthdate:</label>
+            <input type="date" id="birthdate" required>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <script src="/Task4/script.js"></script>
+</body>
+</html>

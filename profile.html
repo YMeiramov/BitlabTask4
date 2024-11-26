@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/Task4/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <span>TWITTER</span>
+            <div>
+                <a href="tweets.html">Tweets</a>
+                <a href="#" onclick="logout()">Logout</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Welcome, <span id="userFullName">User</span>!</h1>
+        <div class="profile-details">
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+            <p><strong>Full Name:</strong> <span id="userFullNameDetailed"></span></p>
+            <p><strong>Country:</strong> <span id="userCountry"></span></p>
+            <p><strong>Birthdate:</strong> <span id="userBirthdate"></span></p>
+        </div>
+    </main>
+    <script src="/Task4/script.js"></script>
+</body>
+</html>
